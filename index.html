@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create professional flow charts instantly with our free AI flow chart creator. Generate unlimited high-quality flow charts for business processes, workflows, diagrams, and more. The best free online AI flow chart generator for professional diagrams.">
+    <meta name="keywords" content="free ai flow chart creator, ai flow chart generator, ai generated flow charts, business process diagrams, flow chart maker, ai diagram creator, free flow chart generator">
+    <title>Free AI Flow Chart Creator | Create Professional Flow Charts Instantly | AIFlowChartCreator.com</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/" class="nav-logo">AIFlowChartCreator.com</a>
+        <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about.html">About Us</a>
+            <a href="/contact.html">Contact</a>
+            <a href="https://roihacks.gumroad.com/coffee" target="_blank" class="coffee-nav-button">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="white">
+                    <path d="M4 11h12v3c0 1.657-1.343 3-3 3h-6c-1.657 0-3-1.343-3-3v-3zm14-2h-16v-1c0-1.105 0.895-2 2-2h12c1.105 0 2 0.895 2 2v1zm-3.333-3h-9.334c0-2.761 2.239-5 5-5s5 2.239 5 5z"/>
+                </svg>
+                Buy Us A Coffee
+            </a>
+        </div>
+    </nav>
+
+    <div id="app">
+        <main class="container">
+            <div class="hero-section">
+                <h1>Free AI Flow Chart Creator</h1>
+                <p class="subtitle">Create professional flow charts instantly with AI - No sign-up required!</p>
+            </div>
+            
+            <div class="generator-card">
+                <div class="input-group">
+                    <input 
+                        type="text" 
+                        id="logoPrompt" 
+                        placeholder="Describe your flow chart (e.g., 'customer support process flow chart')"
+                    >
+                </div>
+                <button id="generateBtn">Generate Flow Chart</button>
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <span>Creating your flow chart...</span>
+                </div>
+                <div class="result-container">
+                    <div class="logo-preview">
+                        <img id="image" alt="AI generated flow chart" />
+                    </div>
+                    <div class="button-group" id="actionButtons">
+                        <button id="downloadBtn" class="secondary-button">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>
+                            </svg>
+                            Download Flow Chart
+                        </button>
+                        <a href="https://roihacks.gumroad.com/coffee" target="_blank" class="secondary-button coffee-button">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M4 11h12v3c0 1.657-1.343 3-3 3h-6c-1.657 0-3-1.343-3-3v-3zm14-2h-16v-1c0-1.105 0.895-2 2-2h12c1.105 0 2 0.895 2 2v1zm-3.333-3h-9.334c0-2.761 2.239-5 5-5s5 2.239 5 5z"/>
+                            </svg>
+                            Buy Us a Coffee
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="support-section top-support">
+                <h2>Love Our Free AI Flow Chart Creator? Support Us! ❤️</h2>
+                <p>Help us maintain and improve our free AI flow chart generator by supporting our API & hosting costs. Your contribution helps keep this tool free for creators worldwide!</p>
+                <a href="https://roihacks.gumroad.com/coffee" target="_blank" class="coffee-button-large">
+                    <svg width="24" height="24" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M4 11h12v3c0 1.657-1.343 3-3 3h-6c-1.657 0-3-1.343-3-3v-3zm14-2h-16v-1c0-1.105 0.895-2 2-2h12c1.105 0 2 0.895 2 2v1zm-3.333-3h-9.334c0-2.761 2.239-5 5-5s5 2.239 5 5z"/>
+                    </svg>
+                    Buy Us a Coffee ☕️
+                </a>
+            </div>
+
+            <div class="content-section">
+                <h2>Free AI Generated Flow Charts</h2>
+                <p>Welcome to AIFlowChartCreator.com - your ultimate destination for AI-powered flow chart generation! Our advanced AI creates professional, clear flow charts for all your business and planning needs. Perfect for business processes, workflows, decision trees, and organizational planning.</p>
+
+                <h2>Flow Chart Categories</h2>
+                <div class="categories-grid">
+                    <div class="category">
+                        <h3>Business Processes</h3>
+                        <ul>
+                            <li>Customer Service</li>
+                            <li>Sales Process</li>
+                            <li>Order Fulfillment</li>
+                            <li>HR Workflows</li>
+                            <li>Quality Control</li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3>Project Management</h3>
+                        <ul>
+                            <li>Project Workflows</li>
+                            <li>Decision Trees</li>
+                            <li>Task Dependencies</li>
+                            <li>Resource Allocation</li>
+                            <li>Risk Management</li>
+                        </ul>
+                    </div>
+                    <div class="category">
+                        <h3>System Design</h3>
+                        <ul>
+                            <li>Data Flow Diagrams</li>
+                            <li>System Architecture</li>
+                            <li>User Flows</li>
+                            <li>Process Maps</li>
+                            <li>Logic Diagrams</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2>Popular Flow Chart Uses</h2>
+                <div class="themes-section">
+                    <ul>
+                        <li>Business Process Documentation</li>
+                        <li>Project Planning</li>
+                        <li>Decision Making</li>
+                        <li>Standard Operating Procedures</li>
+                        <li>Training Materials</li>
+                        <li>System Documentation</li>
+                        <li>Problem Solving</li>
+                        <li>Quality Management</li>
+                    </ul>
+                </div>
+
+                <h2>Why Choose Our Free AI Flow Chart Creator</h2>
+                <ul>
+                    <li>100% Free to Use</li>
+                    <li>High-Resolution Output</li>
+                    <li>Professional Design</li>
+                    <li>Clear and Organized Layout</li>
+                    <li>Instant Generation</li>
+                    <li>No Sign-up Required</li>
+                </ul>
+
+                <h2>How Our AI Flow Chart Creator Works</h2>
+                <ol>
+                    <li>Describe your desired flow chart</li>
+                    <li>AI generates your diagram instantly</li>
+                    <li>Preview and download</li>
+                    <li>Use in your projects</li>
+                </ol>
+
+                <h2>Flow Chart Creation Tips</h2>
+                <div class="tips-section">
+                    <ul>
+                        <li>Be specific about the process type</li>
+                        <li>Include key decision points</li>
+                        <li>Specify the flow direction</li>
+                        <li>Mention important steps</li>
+                        <li>Include process outcomes</li>
+                        <li>Generate multiple variations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="support-section">
+                <h2>Love Our Free AI Flow Chart Creator? Support Us! ❤️</h2>
+                <p>Help us maintain and improve our free AI flow chart generator by supporting our API & hosting costs. Your contribution helps keep this tool free for creators worldwide!</p>
+                <a href="https://roihacks.gumroad.com/coffee" target="_blank" class="coffee-button-large">
+                    <svg width="24" height="24" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M4 11h12v3c0 1.657-1.343 3-3 3h-6c-1.657 0-3-1.343-3-3v-3zm14-2h-16v-1c0-1.105 0.895-2 2-2h12c1.105 0 2 0.895 2 2v1zm-3.333-3h-9.334c0-2.761 2.239-5 5-5s5 2.239 5 5z"/>
+                    </svg>
+                    Buy Us a Coffee ☕️
+                </a>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="https://roihacks.gumroad.com/coffee">Support Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#how-to-use">How to Use</a></li>
+                        <li><a href="#best-practices">Best Practices</a></li>
+                        <li><a href="#flow-chart-types">Flow Chart Types</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="/privacy.html">Privacy Policy</a></li>
+                        <li><a href="/terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2024 AIFlowChartCreator.com. All rights reserved.
+            </div>
+        </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
